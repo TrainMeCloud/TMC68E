@@ -1,0 +1,9 @@
+{
+	"name": "speakersadf25",
+	"location": "australiaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "325c5cc2-db3a-47d7-b295-339c8cc14c45",
+		"tenantId": "9852d238-4a92-4a05-9557-c69d5eb443be"
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"name": "AzureSqlTable4",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Brokerage",
+				"type": "nvarchar"
+			},
+			{
+				"name": "StockName",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "StockAnalysis"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
